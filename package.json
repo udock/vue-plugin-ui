@@ -1,0 +1,24 @@
+{
+  "name": "@udock/vue-plugin-ui",
+  "description": "@udock/vue-plugin-ui",
+  "private": true,
+  "version": "0.0.1",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "scripts": {
+    "build": "@udock/build-tools rollup"
+  },
+  "dependencies": {
+    "jsonic": "^0.3.0",
+    "loader-utils": "^1.1.0",
+    "lodash": "^4.17.4",
+    "pify": "^3.0.0"
+  },
+  "devDependencies": {
+    "@udock/build-tools": "^0.0.1"
+  }
+}
