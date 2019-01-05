@@ -10,7 +10,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "@udock/build-tools rollup"
+    "build": "udock-build-tools rollup"
   },
   "dependencies": {
     "jsonic": "^0.3.0",
@@ -19,6 +19,6 @@
     "pify": "^3.0.0"
   },
   "devDependencies": {
-    "@udock/build-tools": "^0.0.1"
+    "@udock/build-tools": "^0.0.2"
   }
 }
