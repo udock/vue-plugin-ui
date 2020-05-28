@@ -20,5 +20,10 @@
   "devDependencies": {
     "@udock/build-tools": "^0.1.0"
   },
+  "peerDependencies": {
+    "@udock/vue-plugin-ui--theme-default": "^0.1.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  },
   "license": "MIT"
 }
